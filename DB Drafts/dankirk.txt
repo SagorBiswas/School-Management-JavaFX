@@ -1,0 +1,89 @@
+﻿Tables:
+	 ADMIN	        (USER_NAME, PASSWORD)
+	STUDENTS	(STUDENT_ID(PK), FIRST_NAME, LAST_NAME, GRADE, SECTION, SESSION, ADDRESS, CONTACT_NUMBER, REMARKS, BLOOD_GROUP, BIRTH_DATE)
+	TEACHERS	(TEACHER_ID(PK), FIRST_NAME, LAST_NAME, SUBJECT, JOIN_DATE, BIRTH_DATE, SALARY, BLOOD_GROUP)
+	EMPLOYEES	(EMPLOYEE_ID(PK), FIRST_NAME, LAST_NAME, JOB_TITLE, JOIN_DATE, BIRTH_DATE, SALARY, BLOOD_GROUP)
+		CLASS	(CLASS_ID(PK), SUBJECT, TEACHER_ID, OCCURANCE, PRESENT, ROOM_NO)
+	CLASS_ROOM	(ROOM_NO(PK), CAPACITY, FLOOR, BENCHES)
+		SUBJECT	(SUBJECT_CODE(PK), SUBJECT_NAME)
+		FEES	(FEE_ID(PK), FEE_DESCRIPTION, FEE_AMOUNT, LAST_PAYMENT_DATE)
+		EVENTS	(EVENT_ID(PK), EVENT_NAME, DATE, PLACE, PRESIDENT)
+		EXAMS	(EXAM_ID(PK), EXAM_NAME, YEAR)
+	
+RELATIONAL TABLES :
+		ASSIGN		(EMPLOYEE_ID(FK), ROOM_NO(FK))
+		ATTENDS		(STUDENT_ID(FK), CLASS_ID(FK), PRESENCE)
+	FEES_PAYMENT	(FEE_ID(FK), STUDENT_ID(FK), STATUS)
+	PARTICIPATES	(STUDENT_ID(FK), EVENT_ID(FK), PERFORMANCE)
+		RESULT		(EXAM_ID(FK), STUDENT_ID(FK), SUBJECT_CODE(FK), MARKS)
+	
+	
+--------------------ALL THE SALARIES ARE IN NUMBER TYPE
+--------------------ALL THE DATES ARE DATE TYPE
+--------------------OTHERS ARE VARCHAR2 TYPE
+	
+	
+	
+
+
+
+
+
+
+
+
+things that i change 
+
+STUDENT  is table name instead of STUDENTS
+in this table SESSION is not permitted .so its SESSION_1
+
+
+
+
+TEACHER   is table name instead of TEACHERS
+
+IN CLASS table TEACHER_ID is number type 
+
+
+IN EVENT  table  DATE column is replaced by   EVENT_DATE
+
+
+
+
+
+
+
+
+
+
+
+
+
+SQL*Plus: Release 11.2.0.1.0 Production on Sat Jan 13 08:45:19 2018
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+Enter user-name: sys as sysdba
+Enter password:
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+
+SQL> connect SB
+Enter password:
+Connected.
+SQL>
+
+
+
+
+
+
+
+
+
+
+
+
+
