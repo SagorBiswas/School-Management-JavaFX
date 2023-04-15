@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.Entry_FormsController">
+   <children>
+      <Button fx:id="Stdbtn" layoutX="422.0" layoutY="50.0" mnemonicParsing="false" onAction="#StdbtnAction" prefHeight="32.0" prefWidth="364.0" text="Admit a new Student" textFill="#cc0c92">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Teabtn" layoutX="422.0" layoutY="109.0" mnemonicParsing="false" onAction="#TeabtnAction" prefHeight="44.0" prefWidth="364.0" text="Enter a new Teacher" textFill="#cc0c92">
+          <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Empbtn" layoutX="422.0" layoutY="171.0" mnemonicParsing="false" onAction="#EmpbtnAction" prefHeight="44.0" prefWidth="364.0" text="Enter a new Employee" textFill="#cc0c92">
+          <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="paticipatebtn" layoutX="422.0" layoutY="367.0" mnemonicParsing="false" onAction="#paticipatebtnAction" prefHeight="32.0" prefWidth="364.0" text="Entry an Event_Participation" textFill="#cc0c92">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Eventbtn" layoutX="36.0" layoutY="313.0" mnemonicParsing="false" onAction="#EventbtnAction" prefHeight="32.0" prefWidth="364.0" text="Enter new Event" textFill="#cc0c92">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Feebtn" layoutX="36.0" layoutY="421.0" mnemonicParsing="false" onAction="#FeebtnAction" prefHeight="39.0" prefWidth="364.0" text="Enter new Fee" textFill="#cc0c92">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exambtn" layoutX="36.0" layoutY="367.0" mnemonicParsing="false" onAction="#exambtnAction" prefHeight="39.0" prefWidth="364.0" text="Enter an Exam" textFill="#cc0c92">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitbtn" layoutX="521.0" layoutY="545.0" mnemonicParsing="false" onAction="#exitbtnAction" prefHeight="31.0" prefWidth="200.0" text="Exit" textFill="#da1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="signOutbtn" layoutX="279.0" layoutY="545.0" mnemonicParsing="false" onAction="#signoutAction" prefHeight="31.0" prefWidth="200.0" text="SignOut" textFill="#da1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="backbtn" layoutX="37.0" layoutY="545.0" mnemonicParsing="false" onAction="#backbtnAction" prefHeight="31.0" prefWidth="200.0" text="&lt;&lt;Back" textFill="#da1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="marksbtn" layoutX="422.0" layoutY="258.0" mnemonicParsing="false" onAction="#marksbtnAction" prefHeight="32.0" prefWidth="364.0" text="Enter Student's Mark" textFill="#cc0c92">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="Subjbtn" layoutX="36.0" layoutY="258.0" mnemonicParsing="false" onAction="#SubjbtnAction" prefHeight="32.0" prefWidth="364.0" text="Enter new Subject" textFill="#cc0c92">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="feeAssignbtn" layoutX="422.0" layoutY="313.0" mnemonicParsing="false" onAction="#feeAssignbtnAction" prefHeight="39.0" prefWidth="364.0" text="Assign Fees to Student" textFill="#cc0c92">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="newAdminbtn" layoutX="422.0" layoutY="421.0" mnemonicParsing="false" onAction="#newAdminbtnAction" prefHeight="32.0" prefWidth="364.0" text="Enter new Admin" textFill="#cc0c92">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Text fill="#9c15d3" layoutX="75.0" layoutY="154.0" rotate="-23.2" strokeType="OUTSIDE" strokeWidth="0.0" text="ENTRIES">
+         <font>
+            <Font name="Century" size="61.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

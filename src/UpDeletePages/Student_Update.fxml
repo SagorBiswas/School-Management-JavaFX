@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="830.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="UpDeletePages.Student_UpdateController">
+   <children>
+      <Button fx:id="signOutbtn" layoutX="228.0" layoutY="756.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="37.0" prefWidth="165.0" text="SignOut" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitbtn" layoutX="434.0" layoutY="756.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="37.0" prefWidth="125.0" text="Exit" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="backbtn" layoutX="69.0" layoutY="756.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="37.0" prefWidth="125.0" text="&lt;&lt;Back" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="seccmbx" layoutX="72.0" layoutY="566.0" prefHeight="31.0" prefWidth="148.0" promptText="Section" />
+      <ComboBox fx:id="BGcmbx" layoutX="246.0" layoutY="518.0" prefHeight="31.0" prefWidth="148.0" promptText="Blood Group" />
+      <ComboBox fx:id="sesscmbx" layoutX="246.0" layoutY="562.0" prefHeight="31.0" prefWidth="148.0" promptText="Session" />
+      <ComboBox fx:id="grdcmbx" layoutX="72.0" layoutY="518.0" prefHeight="31.0" prefWidth="148.0" promptText="Grade" />
+      <Text layoutX="165.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Student">
+         <font>
+            <Font name="Forte" size="40.0" />
+         </font>
+      </Text>
+      <TextField fx:id="F_NAME" layoutX="208.0" layoutY="201.0" prefHeight="44.0" prefWidth="314.0" />
+      <Text fill="#14bbce" layoutX="69.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" wrappingWidth="125.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#14bbce" layoutX="72.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" wrappingWidth="125.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="L_NAME" layoutX="199.0" layoutY="262.0" prefHeight="44.0" prefWidth="323.0" />
+      <Text fill="#14bbce" layoutX="72.0" layoutY="354.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" wrappingWidth="125.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="ADDR" layoutX="174.0" layoutY="322.0" prefHeight="44.0" prefWidth="351.0" />
+      <Text fill="#14bbce" layoutX="66.0" layoutY="408.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact Number" wrappingWidth="198.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="CON_NUMB" layoutX="262.0" layoutY="380.0" prefHeight="44.0" prefWidth="263.0" />
+      <Text fill="#14bbce" layoutX="72.0" layoutY="470.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description" wrappingWidth="132.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="DESC" layoutX="225.0" layoutY="442.0" prefHeight="44.0" prefWidth="300.0" />
+      <TextField fx:id="STD_ID" layoutX="264.0" layoutY="136.0" prefHeight="31.0" prefWidth="171.0" />
+      <Text fill="#20cf15" layoutX="135.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student_ID" wrappingWidth="125.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="savebtn" layoutX="377.0" layoutY="640.0" mnemonicParsing="false" onAction="#saveButtonAction" prefHeight="55.0" prefWidth="148.0" text="Save" textFill="#55c28b">
+         <font>
+            <Font name="Comic Sans MS" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="canclbtn" layoutX="199.0" layoutY="640.0" mnemonicParsing="false" onAction="#canclButtonAction" prefHeight="55.0" prefWidth="148.0" text="Cancel" textFill="#55c28b">
+         <font>
+            <Font name="Comic Sans MS" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="loadbtn" layoutX="445.0" layoutY="136.0" mnemonicParsing="false" onAction="#loadbtnAction" prefHeight="31.0" prefWidth="70.0" text="Load" textFill="#55c28b" />
+   </children>
+</AnchorPane>

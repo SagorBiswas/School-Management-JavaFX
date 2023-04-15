@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.ShowTeachers_StdController">
+   <children>
+      <TableView fx:id="tableView" layoutX="27.0" layoutY="-27.0" prefHeight="560.0" prefWidth="750.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="TEACHER_ID" minWidth="100.0" prefWidth="200.0" text="TEACHER_ID" />
+          <TableColumn fx:id="TEACHER_NAME" minWidth="100.0" prefWidth="350.0" text="TEACHER_NAME" />
+            <TableColumn fx:id="SUBJECT" minWidth="100.0" prefWidth="200.0" text="SUBJECT" />
+        </columns>
+      </TableView>
+      <Button fx:id="backbtn" layoutX="14.0" layoutY="565.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="31.0" prefWidth="246.0" text="&lt;&lt;BACK" />
+      <Button fx:id="Loadbtn" layoutX="279.0" layoutY="565.0" mnemonicParsing="false" onAction="#load" prefHeight="31.0" prefWidth="216.0" text="Load" />
+      <Button fx:id="SignOutbtn" layoutX="520.0" layoutY="565.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="31.0" prefWidth="216.0" text="Sign Out" />
+   </children>
+</AnchorPane>

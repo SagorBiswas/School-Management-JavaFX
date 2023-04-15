@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EntryPages.Teacher_EntryController">
+   <children>
+      <Text layoutX="135.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher Entry Form">
+         <font>
+            <Font name="Forte" size="41.0" />
+         </font>
+      </Text>
+      <TextField fx:id="F_NAME" layoutX="98.0" layoutY="153.0" prefHeight="45.0" prefWidth="403.0" promptText="First Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="L_NAME" layoutX="98.0" layoutY="222.0" prefHeight="45.0" prefWidth="403.0" promptText="Last_Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="T_ID" layoutX="98.0" layoutY="296.0" prefHeight="45.0" prefWidth="403.0" promptText="Teacher_ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="salry" layoutX="98.0" layoutY="494.0" prefHeight="31.0" prefWidth="178.0" promptText="Salary">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <DatePicker fx:id="dobdtp" layoutX="323.0" layoutY="377.0" prefHeight="31.0" prefWidth="178.0" promptText="Birth Date" />
+      <DatePicker fx:id="jdtp" layoutX="323.0" layoutY="435.0" prefHeight="31.0" prefWidth="178.0" promptText="Join Date" />
+      <ComboBox fx:id="subcmbx" layoutX="98.0" layoutY="377.0" prefHeight="31.0" prefWidth="178.0" promptText="Subject" />
+      <ComboBox fx:id="BGcmbx" layoutX="98.0" layoutY="435.0" prefHeight="31.0" prefWidth="178.0" promptText="Blood Group" />
+      <Button fx:id="submitbtn" layoutX="315.0" layoutY="587.0" mnemonicParsing="false" onAction="#submitButtonAction" prefHeight="31.0" prefWidth="108.0" text="Submit" />
+      <Button fx:id="resetbtn" layoutX="168.0" layoutY="587.0" mnemonicParsing="false" onAction="#resetButtonAction" prefHeight="31.0" prefWidth="108.0" text="Reset" />
+      <Button fx:id="backbtn" layoutX="84.0" layoutY="686.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="37.0" prefWidth="108.0" text="&lt;&lt;Back" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="signOutbtn" layoutX="233.0" layoutY="686.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="37.0" prefWidth="128.0" text="SignOut" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitbtn" layoutX="393.0" layoutY="686.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="37.0" prefWidth="108.0" text="Exit" textFill="#da1212">
+          <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

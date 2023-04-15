@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.Std_ID_InputController">
+   <children>
+      <Text fill="#3c2c9a" layoutX="71.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Your STUDENT_ID" wrappingWidth="464.154296875">
+         <font>
+            <Font name="Bodoni MT" size="39.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtfld" layoutX="143.0" layoutY="194.0" prefHeight="31.0" prefWidth="229.0" />
+      <Button fx:id="backbtn" layoutX="46.0" layoutY="315.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="40.0" prefWidth="128.0" text="&lt;&lt;Back" textFill="#c50f0f" />
+      <Button fx:id="signoutbtn" layoutX="216.0" layoutY="315.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="40.0" prefWidth="175.0" text="SignOut" textFill="#c50f0f" />
+      <Button fx:id="exitbtn" layoutX="429.0" layoutY="315.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="40.0" prefWidth="128.0" text="Exit" textFill="#c50f0f" />
+      <Button fx:id="submitbtn" layoutX="391.0" layoutY="194.0" mnemonicParsing="false" onAction="#SubmitAction" prefHeight="31.0" prefWidth="76.0" text="Submit" textFill="#4fae7a" />
+   </children>
+   <effect>
+      <DropShadow blurType="TWO_PASS_BOX" color="#0e8ba4" />
+   </effect>
+</AnchorPane>

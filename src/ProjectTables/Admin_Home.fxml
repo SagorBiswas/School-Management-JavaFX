@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.Admin_HomeController">
+   <children>
+      <Button fx:id="AllStdbtn" layoutX="108.0" layoutY="100.0" mnemonicParsing="false" onAction="#allStdAction2" prefHeight="48.0" prefWidth="327.0" text="Show All Students" textFill="#6a107c" />
+      <Button fx:id="AllTeabtn" layoutX="108.0" layoutY="188.0" mnemonicParsing="false" onAction="#allTeaAction" prefHeight="48.0" prefWidth="327.0" text="Show All Teachers" textFill="#6a107c" />
+      <Button fx:id="AllEmpbtn" layoutX="108.0" layoutY="282.0" mnemonicParsing="false" onAction="#allEmpAction" prefHeight="48.0" prefWidth="327.0" text="Show All Employees" textFill="#6a107c" />
+      <Button fx:id="Stdbtn" alignment="CENTER_RIGHT" layoutX="107.0" layoutY="378.0" mnemonicParsing="false" onAction="#StdAction" prefHeight="31.0" prefWidth="140.0" text="Show Student" textAlignment="RIGHT" textFill="#6a107c" />
+      <Button fx:id="Teabtn" alignment="CENTER_RIGHT" layoutX="107.0" layoutY="435.0" mnemonicParsing="false" onAction="#TeaAction" prefHeight="31.0" prefWidth="140.0" text="Show Teacher" textAlignment="RIGHT" textFill="#6a107c" />
+      <Button fx:id="Empbtn" alignment="CENTER_RIGHT" layoutX="107.0" layoutY="490.0" mnemonicParsing="false" onAction="#EmpAction" prefHeight="31.0" prefWidth="140.0" text="Show Employee" textAlignment="RIGHT" textFill="#6a107c" />
+      <Text fx:id="txt1" fill="#231add" layoutX="271.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Text fx:id="txt2" fill="#231add" layoutX="271.0" layoutY="455.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Text fx:id="txt3" fill="#231add" layoutX="271.0" layoutY="508.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <ComboBox fx:id="stdcmbx" layoutX="337.0" layoutY="381.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <ComboBox fx:id="teacmbx" layoutX="337.0" layoutY="438.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <ComboBox fx:id="empcmbx" layoutX="337.0" layoutY="493.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <Text fx:id="txt4" fill="#231add" layoutX="488.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt5" fill="#231add" layoutX="488.0" layoutY="459.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt6" fill="#231add" layoutX="488.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="stdtxtfld" layoutX="513.0" layoutY="380.0" prefHeight="31.0" prefWidth="140.0" />
+      <TextField fx:id="teatxtfld" layoutX="513.0" layoutY="437.0" prefHeight="31.0" prefWidth="140.0" />
+      <TextField fx:id="emptxtfld" layoutX="513.0" layoutY="490.0" prefHeight="31.0" prefWidth="140.0" />
+      <Button fx:id="signoutbtn" layoutX="184.0" layoutY="572.0" mnemonicParsing="false" onAction="#signoutAction" prefHeight="31.0" prefWidth="153.0" text="SignOut" textFill="#d30c19">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="extbtn" layoutX="393.0" layoutY="572.0" mnemonicParsing="false" onAction="#exitbtnAction" prefHeight="31.0" prefWidth="153.0" text="Exit" textFill="#d30c19">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="updatebtn" layoutX="477.0" layoutY="188.0" mnemonicParsing="false" onAction="#UpdateAction" prefHeight="59.0" prefWidth="178.0" text="UPDATES" textFill="#d30c19">
+         <font>
+            <Font name="Algerian" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="deletebtn" layoutX="477.0" layoutY="277.0" mnemonicParsing="false" onAction="#DeleteAction" prefHeight="59.0" prefWidth="178.0" text="DELETE" textFill="#d30c19">
+         <font>
+            <Font name="Algerian" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="entrybtn" layoutX="477.0" layoutY="100.0" mnemonicParsing="false" onAction="#EntryAction" prefHeight="59.0" prefWidth="178.0" text="ENTRIES" textFill="#d30c19">
+         <font>
+            <Font name="Algerian" size="23.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <DropShadow blurType="TWO_PASS_BOX" color="#371cd6" />
+   </effect>
+</AnchorPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UpDeletePages.Teacher_UpdateController">
+   <children>
+      <Button fx:id="loadbtn" layoutX="418.0" layoutY="184.0" mnemonicParsing="false" onAction="#loadbtnAction" prefHeight="31.0" prefWidth="70.0" text="Load" textFill="#55c28b" />
+      <Button fx:id="canclbtn" layoutX="235.0" layoutY="518.0" mnemonicParsing="false" onAction="#loadbtnAction" prefHeight="40.0" prefWidth="130.0" text="Cancel" textFill="#55c28b">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="savebtn" layoutX="396.0" layoutY="518.0" mnemonicParsing="false" onAction="#saveButtonAction" prefHeight="37.0" prefWidth="130.0" text="Save" textFill="#55c28b">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Button>
+      <Text fill="#20cf15" layoutX="137.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teacher_ID" wrappingWidth="125.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="TEA_ID" layoutX="266.0" layoutY="139.0" prefHeight="31.0" prefWidth="171.0" />
+      <TextField fx:id="SAL" layoutX="176.0" layoutY="450.0" prefHeight="37.0" prefWidth="157.0" />
+      <Text fill="#14bbce" layoutX="91.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Salary" wrappingWidth="86.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="SUBJ" layoutX="176.0" layoutY="378.0" prefHeight="44.0" prefWidth="351.0" />
+      <Text fill="#14bbce" layoutX="74.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subject" wrappingWidth="125.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="L_NAME" layoutX="201.0" layoutY="318.0" prefHeight="44.0" prefWidth="323.0" />
+      <Text fill="#14bbce" layoutX="74.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" wrappingWidth="125.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#14bbce" layoutX="71.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" wrappingWidth="125.0">
+         <font>
+            <Font name="Gabriola" size="36.0" />
+         </font>
+      </Text>
+      <TextField fx:id="F_NAME" layoutX="210.0" layoutY="257.0" prefHeight="44.0" prefWidth="314.0" />
+      <Text layoutX="167.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Update Teacher">
+         <font>
+            <Font name="Forte" size="40.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="BGcmbx" layoutX="365.0" layoutY="450.0" prefHeight="37.0" prefWidth="165.0" promptText="Blood Group" />
+      <Button fx:id="backbtn" layoutX="50.0" layoutY="627.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="37.0" prefWidth="125.0" text="&lt;&lt;Back" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitbtn" layoutX="415.0" layoutY="627.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="37.0" prefWidth="125.0" text="Exit" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="signOutbtn" layoutX="209.0" layoutY="627.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="37.0" prefWidth="165.0" text="SignOut" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

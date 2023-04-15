@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.Teacher_HomeController">
+   <children>
+      <Button fx:id="feesbtn" layoutX="237.0" layoutY="66.0" mnemonicParsing="false" onAction="#showTeachersAction" prefHeight="31.0" prefWidth="338.0" text="View All Teachers" />
+      <Button fx:id="backbtn" layoutX="40.0" layoutY="339.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="41.0" prefWidth="126.0" text="&lt;&lt;Back" />
+      <Button fx:id="signoutbtn" layoutX="243.0" layoutY="339.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="41.0" prefWidth="114.0" text="SignOut" />
+      <Button fx:id="exitbtn" layoutX="443.0" layoutY="339.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="41.0" prefWidth="114.0" text="Exit" />
+      <Button fx:id="empbtn" layoutX="237.0" layoutY="121.0" mnemonicParsing="false" onAction="#showEmployeesAction" prefHeight="31.0" prefWidth="338.0" text="View All Employees" />
+      <Button fx:id="stdbtn" layoutX="237.0" layoutY="185.0" mnemonicParsing="false" onAction="#showStudentsAction" prefHeight="31.0" prefWidth="338.0" text="View All Students" />
+   </children>
+</AnchorPane>

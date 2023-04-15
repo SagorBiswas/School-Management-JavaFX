@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UpDeletePages.Delete_PageController">
+   <children>
+      <TextField fx:id="adminfld" layoutX="500.0" layoutY="545.0" prefHeight="31.0" prefWidth="140.0" />
+      <TextField fx:id="evntfld" layoutX="500.0" layoutY="492.0" prefHeight="31.0" prefWidth="140.0" />
+      <TextField fx:id="feefld" layoutX="500.0" layoutY="435.0" prefHeight="31.0" prefWidth="140.0" />
+      <Text fx:id="txt6" fill="#231add" layoutX="475.0" layoutY="569.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt5" fill="#231add" layoutX="475.0" layoutY="514.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt4" fill="#231add" layoutX="475.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="admincmbx" layoutX="324.0" layoutY="548.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <ComboBox fx:id="evntcmbx" layoutX="324.0" layoutY="493.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <ComboBox fx:id="feecmbx" layoutX="324.0" layoutY="436.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <Text fx:id="txt3" fill="#231add" layoutX="258.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Text fx:id="txt2" fill="#231add" layoutX="258.0" layoutY="510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Text fx:id="txt1" fill="#231add" layoutX="258.0" layoutY="457.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Button fx:id="adminbtn" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="545.0" mnemonicParsing="false" onAction="#adminbtnAction" prefHeight="31.0" prefWidth="140.0" text="Delete an Admin" textAlignment="RIGHT" textFill="#6a107c" />
+      <Button fx:id="evntbtn" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="490.0" mnemonicParsing="false" onAction="#evntbtnAction" prefHeight="31.0" prefWidth="140.0" text="Delete Event" textAlignment="RIGHT" textFill="#6a107c" />
+      <Button fx:id="feebtn" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="433.0" mnemonicParsing="false" onAction="#feebtnAction" prefHeight="31.0" prefWidth="140.0" text="Delete FEES" textAlignment="RIGHT" textFill="#6a107c" />
+      <TextField fx:id="exmfld" layoutX="500.0" layoutY="371.0" prefHeight="31.0" prefWidth="140.0" />
+      <TextField fx:id="subjfld" layoutX="500.0" layoutY="318.0" prefHeight="31.0" prefWidth="140.0" />
+      <TextField fx:id="empfld" layoutX="500.0" layoutY="261.0" prefHeight="31.0" prefWidth="140.0" />
+      <Text fx:id="txt61" fill="#231add" layoutX="475.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt51" fill="#231add" layoutX="475.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt41" fill="#231add" layoutX="475.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="exmcmbx" layoutX="324.0" layoutY="374.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <ComboBox fx:id="subjcmbx" layoutX="324.0" layoutY="319.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <ComboBox fx:id="empcmbx" layoutX="324.0" layoutY="262.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <Text fx:id="txt31" fill="#231add" layoutX="258.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Text fx:id="txt21" fill="#231add" layoutX="258.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Text fx:id="txt11" fill="#231add" layoutX="258.0" layoutY="283.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Button fx:id="exmbtn" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="371.0" mnemonicParsing="false" onAction="#exmbtnAction" prefHeight="31.0" prefWidth="140.0" text="Delete Exam" textAlignment="RIGHT" textFill="#6a107c" />
+      <Button fx:id="subjbtn" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="316.0" mnemonicParsing="false" onAction="#subjbtnAction" prefHeight="31.0" prefWidth="140.0" text="Delete Subject" textAlignment="RIGHT" textFill="#6a107c" />
+      <Button fx:id="empbtn" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="259.0" mnemonicParsing="false" onAction="#empbtnAction" prefHeight="31.0" prefWidth="140.0" text="Delete Employee" textAlignment="RIGHT" textFill="#6a107c" />
+      <TextField fx:id="teafld" layoutX="500.0" layoutY="204.0" prefHeight="31.0" prefWidth="140.0" />
+      <TextField fx:id="stdfld" layoutX="500.0" layoutY="151.0" prefHeight="31.0" prefWidth="140.0" />
+      <Text fx:id="txt62" fill="#231add" layoutX="475.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="txt52" fill="#231add" layoutX="475.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="is">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="teacmbx" layoutX="324.0" layoutY="207.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <ComboBox fx:id="stdcmbx" layoutX="324.0" layoutY="152.0" prefHeight="31.0" prefWidth="140.0" promptText="SELECT HERE" />
+      <Text fx:id="txt32" fill="#231add" layoutX="258.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Text fx:id="txt22" fill="#231add" layoutX="258.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Whose" />
+      <Button fx:id="teabtn" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="204.0" mnemonicParsing="false" onAction="#teabtnAction" prefHeight="31.0" prefWidth="140.0" text="Delete Teacher" textAlignment="RIGHT" textFill="#6a107c" />
+      <Button fx:id="stdbtn" alignment="CENTER_RIGHT" layoutX="94.0" layoutY="149.0" mnemonicParsing="false" onAction="#stdbtnAction" prefHeight="31.0" prefWidth="140.0" text="Delete Student" textAlignment="RIGHT" textFill="#6a107c" />
+      <Text layoutX="234.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Page">
+         <font>
+            <Font name="Forte" size="45.0" />
+         </font>
+      </Text>
+      <Button fx:id="backbtn" layoutX="33.0" layoutY="677.0" mnemonicParsing="false" onAction="#backbtnAction" prefHeight="31.0" prefWidth="200.0" text="&lt;&lt;Back" textFill="#da1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="signoutbtn" layoutX="275.0" layoutY="677.0" mnemonicParsing="false" onAction="#signoutAction" prefHeight="31.0" prefWidth="200.0" text="SignOut" textFill="#da1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="extbtn" layoutX="517.0" layoutY="677.0" mnemonicParsing="false" onAction="#exitbtnAction" prefHeight="31.0" prefWidth="200.0" text="Exit" textFill="#da1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

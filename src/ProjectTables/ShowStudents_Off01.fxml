@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1260.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.ShowStudents_Off_Controller">
+   <children>
+      <TableView fx:id="tableView" prefHeight="760.0" prefWidth="1260.0" AnchorPane.bottomAnchor="39.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="STUDENT_ID" minWidth="80.0" prefWidth="100.0" text="STUDENT_ID" />
+            <TableColumn fx:id="FIRST_NAME" prefWidth="120.0" text="FIRST_NAME" />
+            <TableColumn fx:id="LAST_NAME" prefWidth="120.0" text="LAST_NAME" />
+            <TableColumn fx:id="GRADE" text="GRADE" />
+            <TableColumn fx:id="SECTION" text="SECTION" />
+            <TableColumn fx:id="SESSION" prefWidth="100.0" text="SESSION" />
+            <TableColumn fx:id="ADDRESS" prefWidth="160.0" text="ADDRESS" />
+            <TableColumn fx:id="CONTACT_NUMBER" prefWidth="160.0" text="CONTACT_NUMBER" />
+            <TableColumn fx:id="REMARKS" prefWidth="100.0" text="REMARKS" />
+            <TableColumn fx:id="BLOOD_GROUP" prefWidth="120.0" text="BLOOD_GROUP" />
+            <TableColumn fx:id="BIRTH_DATE" prefWidth="120.0" text="BIRTH_DATE" />
+        </columns>
+      </TableView>
+      <Button fx:id="backbtn" layoutX="6.0" layoutY="766.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="31.0" prefWidth="313.0" text="&lt;&lt; Back" />
+      <Button fx:id="SignOutbtn" layoutX="646.0" layoutY="766.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="31.0" prefWidth="313.0" text="Sign Out" />
+      <Button fx:id="Loadbtn" layoutX="343.0" layoutY="766.0" mnemonicParsing="false" onAction="#refreshTable" prefHeight="31.0" prefWidth="282.0" text="Load" />
+      <Button fx:id="Extbtn" layoutX="980.0" layoutY="766.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="31.0" prefWidth="253.0" text="Exit" />
+   </children>
+</AnchorPane>

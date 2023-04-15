@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ProjectTables.ShowGPA_StdController">
+   <children>
+      <Text fill="#3c2c9a" layoutX="93.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your GPA is" wrappingWidth="206.154296875">
+         <font>
+            <Font name="Gabriola" size="45.0" />
+         </font>
+      </Text>
+      <TextField layoutX="300.0" layoutY="178.0" prefHeight="45.0" prefWidth="187.0" />
+      <Text fill="#3ef7d5" layoutX="237.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GPA">
+         <font>
+            <Font name="Castellar" size="55.0" />
+         </font>
+      </Text>
+      <Button fx:id="backbtn" layoutX="44.0" layoutY="313.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="40.0" prefWidth="128.0" text="&lt;&lt;Back" textFill="#c50f0f" />
+      <Button fx:id="signoutbtn" layoutX="214.0" layoutY="313.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="40.0" prefWidth="175.0" text="SignOut" textFill="#c50f0f" />
+      <Button fx:id="exitbtn" layoutX="427.0" layoutY="313.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="40.0" prefWidth="128.0" text="Exit" textFill="#c50f0f" />
+   </children>
+</AnchorPane>

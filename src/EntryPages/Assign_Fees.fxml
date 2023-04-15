@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="750.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EntryPages.Assign_FeesController">
+   <children>
+      <Text layoutX="241.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assign Fees">
+         <font>
+            <Font name="Forte" size="40.0" />
+         </font>
+      </Text>
+      <Text fill="#0f6565" fontSmoothingType="LCD" layoutX="205.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FEE_ID" wrappingWidth="101.0">
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="feeid" layoutX="315.0" layoutY="163.0" promptText="XXXXX" />
+      <Button fx:id="signOutbtn" layoutX="263.0" layoutY="646.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="37.0" prefWidth="165.0" text="SignOut" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitbtn" layoutX="488.0" layoutY="646.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="37.0" prefWidth="125.0" text="Exit" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="backbtn" layoutX="87.0" layoutY="646.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="37.0" prefWidth="125.0" text="&lt;&lt;Back" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Text fill="#3220da" layoutX="60.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assign to Student having ID ">
+         <font>
+            <Font name="Gabriola" size="34.0" />
+         </font>
+      </Text>
+      <TextField fx:id="stdid" layoutX="375.0" layoutY="228.0" promptText="XXXXXXX" />
+      <Text fill="#3220da" layoutX="54.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assign to Students in Session">
+         <font>
+            <Font name="Gabriola" size="34.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="sesscmbx" layoutX="376.0" layoutY="327.0" prefHeight="31.0" prefWidth="137.0" promptText="Session" />
+      <Button fx:id="Assignid" layoutX="508.0" layoutY="268.0" mnemonicParsing="false" onAction="#assignidbuttonAction" prefHeight="31.0" prefWidth="121.0" text="Assign" textFill="#0bc333" />
+      <Button fx:id="Assignsess" layoutX="508.0" layoutY="371.0" mnemonicParsing="false" onAction="#assignsessbuttonAction" prefHeight="31.0" prefWidth="121.0" text="Assign" textFill="#0bc333" />
+      <Text fill="#3220da" layoutX="54.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assign to Students in">
+         <font>
+            <Font name="Gabriola" size="34.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="grdcmbx" layoutX="344.0" layoutY="447.0" prefHeight="31.0" prefWidth="137.0" promptText="Grade" />
+      <Button fx:id="Assigngrd" layoutX="508.0" layoutY="447.0" mnemonicParsing="false" onAction="#assigngrdbuttonAction" prefHeight="31.0" prefWidth="121.0" text="Assign" textFill="#0bc333" />
+      <Text fill="#3220da" layoutX="215.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="and Section">
+         <font>
+            <Font name="Gabriola" size="34.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="seccmbx" layoutX="344.0" layoutY="508.0" prefHeight="31.0" prefWidth="137.0" promptText="Section" />
+      <Button fx:id="Assignsect" layoutX="508.0" layoutY="508.0" mnemonicParsing="false" onAction="#assignsectbuttonAction" prefHeight="31.0" prefWidth="121.0" text="Assign" textFill="#0bc333" />
+      <Text fill="#3220da" layoutX="257.0" layoutY="469.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grade">
+         <font>
+            <Font name="Gabriola" size="34.0" />
+         </font>
+      </Text>
+      <Button fx:id="clrbtn" layoutX="508.0" layoutY="569.0" mnemonicParsing="false" onAction="#resetbuttonAction" prefHeight="31.0" prefWidth="121.0" text="Clear All" textFill="#0bc333" />
+   </children>
+</AnchorPane>

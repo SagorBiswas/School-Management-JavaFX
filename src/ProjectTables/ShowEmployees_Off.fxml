@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.ShowEmployees_OffController">
+   <children>
+      <TableView fx:id="tableView" layoutX="240.0" layoutY="200.0" prefHeight="760.0" prefWidth="1000.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="EMPLOYEE_ID" prefWidth="120.0" text="EMPLOYEE_ID" />
+          <TableColumn fx:id="FIRST_NAME" prefWidth="120.0" text="FIRST_NAME" />
+            <TableColumn fx:id="LAST_NAME" prefWidth="120.0" text="LAST_NAME" />
+            <TableColumn fx:id="JOB_TITLE" prefWidth="140.0" text="JOB_TITLE" />
+            <TableColumn fx:id="JOIN_DATE" prefWidth="140.0" text="JOIN_DATE" />
+            <TableColumn fx:id="BIRTH_DATE" prefWidth="140.0" text="BIRTH_DATE" />
+            <TableColumn fx:id="SALARY" prefWidth="100.0" text="SALARY" />
+            <TableColumn fx:id="BLOOD_GROUP" prefWidth="120.0" text="BLOOD_GROUP" />
+        </columns>
+      </TableView>
+      <Button fx:id="exitbtn" layoutX="755.0" layoutY="767.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="31.0" prefWidth="190.0" text="Exit" textFill="#d30c19">
+          <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="SignOutbtn" layoutX="519.0" layoutY="767.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="31.0" prefWidth="190.0" text="SignOut" textFill="#d30c19">
+          <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="Loadbtn" layoutX="281.0" layoutY="767.0" mnemonicParsing="false" onAction="#load" prefHeight="31.0" prefWidth="190.0" text="Load" textFill="#d30c19">
+          <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="backbtn" layoutX="36.0" layoutY="767.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="31.0" prefWidth="190.0" text="&lt;&lt;Back" textFill="#d30c19">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

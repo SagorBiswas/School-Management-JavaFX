@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="640.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.ShowFees_StdController">
+   <children>
+      <TableView fx:id="tableView" layoutX="201.0" layoutY="40.0" prefHeight="560.0" prefWidth="600.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="40.0">
+        <columns>
+          <TableColumn fx:id="FEE_ID" prefWidth="120.0" text="FEE_ID" />
+          <TableColumn fx:id="FEE_DESCRIPTION" prefWidth="200.0" text="FEE_DESCRIPTION" />
+            <TableColumn fx:id="FEE_AMOUNT" prefWidth="150.0" text="FEE_AMOUNT" />
+            <TableColumn fx:id="LAST_PAYMENT_DATE" prefWidth="130.0" text="LAST_DATE" />
+        </columns>
+      </TableView>
+      <Button fx:id="backbtn" layoutX="25.0" layoutY="600.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="32.0" prefWidth="115.0" text="&lt;&lt;Back" />
+      <Button fx:id="SignOutbtn" layoutX="173.0" layoutY="602.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="31.0" prefWidth="115.0" text="SignOut" />
+      <Button fx:id="Extbtn" layoutX="471.0" layoutY="600.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="32.0" prefWidth="115.0" text="Exit" />
+      <Text fx:id="txt1" fill="#353380" layoutX="123.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student_ID">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="std" layoutX="216.0" layoutY="8.0" prefHeight="20.0" prefWidth="187.0" />
+      <Button fx:id="loadbtn" layoutX="329.0" layoutY="601.0" mnemonicParsing="false" onAction="#load" prefHeight="31.0" prefWidth="115.0" text="Load" />
+   </children>
+</AnchorPane>

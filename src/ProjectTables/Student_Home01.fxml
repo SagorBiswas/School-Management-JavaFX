@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.Student_HomeController">
+   <children>
+      <Button fx:id="feesbtn" layoutX="237.0" layoutY="56.0" mnemonicParsing="false" onAction="#showFeesAction" prefHeight="41.0" prefWidth="338.0" text="View Fees" />
+      <Button fx:id="backbtn" layoutX="40.0" layoutY="339.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="41.0" prefWidth="126.0" text="&lt;&lt;Back" />
+      <Button fx:id="signoutbtn" layoutX="243.0" layoutY="339.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="41.0" prefWidth="114.0" text="SignOut" />
+      <Button fx:id="exitbtn" layoutX="443.0" layoutY="339.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="41.0" prefWidth="114.0" text="Exit" />
+      <Button fx:id="gpabtn" layoutX="237.0" layoutY="130.0" mnemonicParsing="false" onAction="#gpabtnAction" prefHeight="41.0" prefWidth="338.0" text="View GPA" />
+      <Button fx:id="posbtn" layoutX="237.0" layoutY="199.0" mnemonicParsing="false" onAction="#posbtnAction" prefHeight="41.0" prefWidth="338.0" text="View Position" />
+   </children>
+</AnchorPane>

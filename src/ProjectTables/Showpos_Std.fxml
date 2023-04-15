@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="ProjectTables.Showpos_StdController">
+   <children>
+      <Button fx:id="exitbtn" layoutX="437.0" layoutY="323.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="40.0" prefWidth="128.0" text="Exit" textFill="#c50f0f" />
+      <Button fx:id="signoutbtn" layoutX="224.0" layoutY="323.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="40.0" prefWidth="175.0" text="SignOut" textFill="#c50f0f" />
+      <Button fx:id="backbtn" layoutX="54.0" layoutY="323.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="40.0" prefWidth="128.0" text="&lt;&lt;Back" textFill="#c50f0f" />
+      <Text fill="#3ef7d5" layoutX="156.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POSITION">
+         <font>
+            <Font name="Castellar" size="55.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtfld" layoutX="322.0" layoutY="188.0" prefHeight="45.0" prefWidth="175.0" />
+      <Text fill="#3c2c9a" layoutX="90.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Position is" wrappingWidth="221.154296875">
+         <font>
+            <Font name="Gabriola" size="45.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

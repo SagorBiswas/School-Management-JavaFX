@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="830.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EntryPages.Admission_FormController">
+   <children>
+      <Text layoutX="162.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admission Form">
+         <font>
+            <Font name="Forte" size="40.0" />
+         </font>
+      </Text>
+      <TextField fx:id="F_NAME" layoutX="100.0" layoutY="148.0" prefHeight="44.0" prefWidth="402.0" promptText="First Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="L_NAME" layoutX="100.0" layoutY="211.0" prefHeight="44.0" prefWidth="402.0" promptText="Last Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ADDR" layoutX="99.0" layoutY="274.0" prefHeight="44.0" prefWidth="402.0" promptText="Address">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="CON_NUMB" layoutX="99.0" layoutY="339.0" prefHeight="44.0" prefWidth="402.0" promptText="Contact Number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="DESC" layoutX="99.0" layoutY="569.0" prefHeight="72.0" prefWidth="402.0" promptText="Description">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="STD_ID" layoutX="315.0" layoutY="513.0" promptText="Student ID" />
+      <ComboBox fx:id="grdcmbx" layoutX="99.0" layoutY="461.0" prefHeight="31.0" prefWidth="187.0" promptText="Grade" />
+      <ComboBox fx:id="sesscmbx" layoutX="100.0" layoutY="513.0" prefHeight="31.0" prefWidth="187.0" promptText="Session" />
+      <ComboBox fx:id="BGcmbx" layoutX="314.0" layoutY="400.0" prefHeight="31.0" prefWidth="187.0" promptText="Blood Group" />
+      <ComboBox fx:id="seccmbx" layoutX="315.0" layoutY="461.0" prefHeight="31.0" prefWidth="187.0" promptText="Section" />
+      <DatePicker fx:id="BDPicker" layoutX="99.0" layoutY="400.0" prefHeight="31.0" prefWidth="198.0" promptText="Date Of Birth" />
+      <Button fx:id="submitbtn" layoutX="310.0" layoutY="663.0" mnemonicParsing="false" onAction="#submitButtonAction" prefHeight="37.0" prefWidth="135.0" text="Submit" />
+      <Button fx:id="resetbtn" layoutX="149.0" layoutY="663.0" mnemonicParsing="false" onAction="#resetButtonAction" prefHeight="37.0" prefWidth="135.0" text="Clear" />
+      <Button fx:id="backbtn" layoutX="59.0" layoutY="746.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="37.0" prefWidth="125.0" text="&lt;&lt;Back" textFill="#da1212">
+        <font>
+           <Font name="System Bold" size="15.0" />
+        </font></Button>
+      <Button fx:id="exitbtn" layoutX="424.0" layoutY="746.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="37.0" prefWidth="125.0" text="Exit" textFill="#da1212">
+        <font>
+           <Font name="System Bold" size="15.0" />
+        </font></Button>
+      <Button fx:id="signOutbtn" layoutX="218.0" layoutY="746.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="37.0" prefWidth="165.0" text="SignOut" textFill="#da1212">
+        <font>
+          <Font name="System Bold" size="15.0" />
+       </font></Button>
+   </children>
+</AnchorPane>

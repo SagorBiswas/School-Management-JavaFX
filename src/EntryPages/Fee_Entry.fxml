@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="EntryPages.Fee_EntryController">
+   <children>
+      <Button fx:id="submitbtn" layoutX="387.0" layoutY="367.0" mnemonicParsing="false" onAction="#submitButtonAction" prefHeight="31.0" prefWidth="108.0" text="Submit" />
+      <Button fx:id="resetbtn" layoutX="387.0" layoutY="414.0" mnemonicParsing="false" onAction="#resetButtonAction" prefHeight="31.0" prefWidth="108.0" text="Reset" />
+      <Button fx:id="backbtn" layoutX="92.0" layoutY="476.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="37.0" prefWidth="108.0" text="&lt;&lt;Back" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="signOutbtn" layoutX="241.0" layoutY="476.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="37.0" prefWidth="128.0" text="SignOut" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitbtn" layoutX="401.0" layoutY="476.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="37.0" prefWidth="108.0" text="Exit" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Text layoutX="179.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fee Entry Form">
+         <font>
+            <Font name="Forte" size="40.0" />
+         </font>
+      </Text>
+      <TextField fx:id="F_ID" layoutX="99.0" layoutY="167.0" prefHeight="45.0" prefWidth="403.0" promptText="Fee_ID">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="F_desc" layoutX="99.0" layoutY="230.0" prefHeight="45.0" prefWidth="403.0" promptText="Fee Description">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="F_pment" layoutX="99.0" layoutY="291.0" prefHeight="45.0" prefWidth="403.0" promptText="Fee Amount">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <DatePicker fx:id="lpdt" layoutX="99.0" layoutY="367.0" promptText="Last Payment Date" />
+   </children>
+</AnchorPane>

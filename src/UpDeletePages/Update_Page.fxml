@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UpDeletePages.Update_PageController">
+   <children>
+      <Button fx:id="extbtn" layoutX="485.0" layoutY="510.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="40.0" prefWidth="152.0" text="Exit" textFill="#da1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="signoutbtn" layoutX="290.0" layoutY="510.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="40.0" prefWidth="152.0" text="SignOut" textFill="#da1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="backbtn" layoutX="96.0" layoutY="510.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="40.0" prefWidth="152.0" text="&lt;&lt;Back" textFill="#da1313">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="teabtn" layoutX="326.0" layoutY="170.0" mnemonicParsing="false" onAction="#teabtnAction" prefHeight="56.0" prefWidth="365.0" text="Update Teacher" textFill="#d17f14" />
+      <Button fx:id="empbtn" layoutX="326.0" layoutY="245.0" mnemonicParsing="false" onAction="#empbtnAction" prefHeight="56.0" prefWidth="365.0" text="Update Employee" textFill="#d17f14" />
+      <Button fx:id="evntbtn" layoutX="326.0" layoutY="322.0" mnemonicParsing="false" onAction="#evntbtnAction" prefHeight="56.0" prefWidth="365.0" text="Update Event" textFill="#d17f14" />
+      <Button fx:id="stdmrksbtn" layoutX="326.0" layoutY="404.0" mnemonicParsing="false" onAction="#stdmrksbtnAction" prefHeight="56.0" prefWidth="365.0" text="Update Student's Marks" textFill="#d17f14" />
+      <Button fx:id="stdbtn" layoutX="326.0" layoutY="94.0" mnemonicParsing="false" onAction="#stdbtnAction" prefHeight="56.0" prefWidth="365.0" text="Update Student" textFill="#d17f14" />
+      <Text fill="#9c15d3" layoutX="35.0" layoutY="170.0" rotate="-29.7" strokeType="OUTSIDE" strokeWidth="0.0" text="UPDATES">
+         <font>
+            <Font name="Century" size="52.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

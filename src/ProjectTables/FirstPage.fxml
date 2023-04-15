@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProjectTables.FirstPageController">
+   <children>
+      <Text fill="#556372" layoutX="124.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="YOU HAVE TO LOGIN FIRST" textAlignment="CENTER">
+         <font>
+            <Font name="Forte" size="30.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <Text fill="#617272" fontSmoothingType="LCD" layoutX="83.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login As =&gt;" wrappingWidth="135.6708984375">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="Teabtn" layoutX="191.0" layoutY="217.0" mnemonicParsing="false" onAction="#teacherAction" prefHeight="31.0" prefWidth="257.0" text="Teacher" textFill="#0ba025" />
+      <Button fx:id="Stdbtn" layoutX="191.0" layoutY="279.0" mnemonicParsing="false" onAction="#studentAction" prefHeight="31.0" prefWidth="257.0" text="Student" textFill="#0ba025" />
+      <Button fx:id="Adminbtn" layoutX="191.0" layoutY="155.0" mnemonicParsing="false" onAction="#adminAction" prefHeight="31.0" prefWidth="257.0" text="Admin" textFill="#0ba025" />
+      <Button fx:id="Exitbtn" layoutX="441.0" layoutY="344.0" mnemonicParsing="false" onAction="#exitbtnAction" prefHeight="31.0" prefWidth="127.0" text="Exit" textFill="#e80b0b">
+          <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="database1.CheckingFXMLController">
+   <children>
+      <TextField fx:id="txt1" layoutX="87.0" layoutY="85.0" prefHeight="31.0" prefWidth="426.0" promptText="Hey, There" />
+      <TextField fx:id="txt2" layoutX="87.0" layoutY="169.0" prefHeight="31.0" prefWidth="426.0" promptText="Hello">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Button fx:id="btn" layoutX="200.0" layoutY="246.0" mnemonicParsing="false" onAction="#buttonAction" prefHeight="31.0" prefWidth="200.0" text="Say It" />
+   </children>
+</AnchorPane>

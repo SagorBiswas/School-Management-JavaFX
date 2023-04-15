@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="EntryPages.Subject_EntryController">
+   <children>
+      <Button fx:id="exitbtn" layoutX="401.0" layoutY="403.0" mnemonicParsing="false" onAction="#ExitCtrl" prefHeight="37.0" prefWidth="108.0" text="Exit" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="signOutbtn" layoutX="241.0" layoutY="403.0" mnemonicParsing="false" onAction="#signoutbuttonAction" prefHeight="37.0" prefWidth="128.0" text="SignOut" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="backbtn" layoutX="92.0" layoutY="403.0" mnemonicParsing="false" onAction="#backbuttonAction" prefHeight="37.0" prefWidth="108.0" text="&lt;&lt;Back" textFill="#da1212">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="resetbtn" layoutX="178.0" layoutY="316.0" mnemonicParsing="false" onAction="#resetButtonAction" prefHeight="31.0" prefWidth="108.0" text="Reset" />
+      <Button fx:id="submitbtn" layoutX="325.0" layoutY="316.0" mnemonicParsing="false" onAction="#submitButtonAction" prefHeight="31.0" prefWidth="108.0" text="Submit" />
+      <Text layoutX="145.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subject Entry Form">
+         <font>
+            <Font name="Forte" size="41.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Sub_nme" layoutX="108.0" layoutY="163.0" prefHeight="45.0" prefWidth="403.0" promptText="Subject Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Sub_cd" layoutX="108.0" layoutY="228.0" prefHeight="45.0" prefWidth="403.0" promptText="Subject Code">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
